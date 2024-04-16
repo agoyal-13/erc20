@@ -2,5 +2,9 @@
 src = "src"
 out = "out"
 libs = ["lib"]
-
+remappings = [
+    "@openzeppelin/contracts/=D:/Project/blockchain/foundry/erc20/lib/openzeppelin-contracts/contracts/",
+    "@forge-std/=D:/Project/blockchain/foundry/erc20/lib/openzeppelin-contracts/lib/forge-std/src/",
+    "@broadcast/=D:/Project/blockchain/foundry/erc20/lib/foundry-devops/broadcast/",
+]
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
